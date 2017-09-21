@@ -3,7 +3,7 @@ require('dotenv').config();
 
 
 let appInsights = require("applicationinsights");
-appInsights.setup(process.env.MICROSOFT_INSTRUMENTATIONKEY,)
+appInsights.setup(process.env.MICROSOFT_INSTRUMENTATIONKEY)
 .setAutoDependencyCorrelation(true)
 .setAutoCollectRequests(true)
 .setAutoCollectPerformance(true)
