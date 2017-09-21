@@ -1,12 +1,13 @@
 {
   "name": "nodejs-applicatoininsights-sample",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Applicatoininsights Sample",
   "main": "app.js",
   "author": {
-    "name": "shtsukam"
+    "name": "Shuichi TSUKAMOTO"
   },
   "dependencies": {
-    "applicationinsights": "^0.22.0"
+    "applicationinsights": "^0.22.0",
+    "dotenv": "^4.0.0"
   }
 }
