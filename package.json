@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-applicatoininsights-sample",
+  "version": "0.0.0",
+  "description": "Applicatoininsights Sample",
+  "main": "app.js",
+  "author": {
+    "name": "shtsukam"
+  },
+  "dependencies": {
+    "applicationinsights": "^0.22.0"
+  }
+}
