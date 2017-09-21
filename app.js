@@ -1,17 +1,16 @@
 // load config from.env
 require('dotenv').config();
 
-
 let appInsights = require("applicationinsights");
 appInsights.setup(process.env.MICROSOFT_INSTRUMENTATIONKEY)
-.setAutoDependencyCorrelation(true)
-.setAutoCollectRequests(true)
-.setAutoCollectPerformance(true)
-.setAutoCollectExceptions(true)
-.setAutoCollectDependencies(true)
-.setAutoCollectConsole(true)
-.setUseDiskRetryCaching(true)
-.start();; // assuming ikey in env var
+  .setAutoDependencyCorrelation(true)
+  .setAutoCollectRequests(true)
+  .setAutoCollectPerformance(true)
+  .setAutoCollectExceptions(true)
+  .setAutoCollectDependencies(true)
+  .setAutoCollectConsole(true)
+  .setUseDiskRetryCaching(true)
+  .start();; // assuming ikey in env var
 let client = appInsights.defaultClient;
 
 client.trackEvent("my custom event", {customProperty: "custom property value"});
