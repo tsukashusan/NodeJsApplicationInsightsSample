@@ -8,4 +8,6 @@
     ```
 
 1. update `.env`
-    1. update `MICROSOFT_INSTRUMENTATIONKEY`.
+    1. update `<MICROSOFT_INSTRUMENTATIONKEY?`.
+1. update `index.html`
+    1. update `<MICROSOFT_INSTRUMENTATIONKEY>`.
